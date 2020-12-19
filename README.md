@@ -1,16 +1,25 @@
 # Pandoc
 
+[![Source Code](https://img.shields.io/badge/source-gitea-blue)](https://git.argc.in/containers/pandoc)
 [![Build Status](https://drone.argd.in/api/badges/containers/pandoc/status.svg)](https://drone.argd.in/containers/pandoc)
+[![Registry](https://img.shields.io/badge/registry-quay.io-red)](https://quay.io/repository/ankitrgadiya/pandoc?tab=tags)
 
-Pandoc is a universal document converter that supports a wide array of document
-formats. This image provides a light-weight container image that builds on
-Alpine Linux and provides Pandoc.
+Pandoc is a universal document converter. It supports a wide-array of document
+formats. This container image builds on Alpine Linux and provides the latest
+Pandoc release.
 
-This image is intended for CI/CD environments for generating files (specially
-HTML). The image is available from Quay registry, and you can find the list of
-all [available tags](https://quay.io/repository/ankitrgadiya/pandoc?tab=tags)
-there.
+The primary usecase for this image is in CI/CD environments, for generating
+files. It can also replace Pandoc installation from package manager on the
+Desktop. The image is available in [Quay
+registry](https://quay.io/repository/ankitrgadiya/pandoc?tab=tags).
 
-``` bash
+```bash
 docker pull quay.io/ankitrgadiya/pandoc:latest
 ```
+
+## Releases
+
+Pandoc upstream project follows semantic versioning. So, the image tags will
+correspond to the upstream release versions. The `latest` tag will always point
+to the most recent release. I intend to provide all versions from "2.11.2"
+onwards.
