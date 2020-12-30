@@ -1,7 +1,7 @@
 FROM alpine:latest
 LABEL maintainer="Ankit R Gadiya ankit@argp.in"
 
-ENV PANDOC_VERSION=2.11.3.1
+ENV PANDOC_VERSION=2.11.3.2
 
 RUN apk --no-cache --update add make tree findutils
 RUN wget https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-linux-amd64.tar.gz \
