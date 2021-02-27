@@ -1,7 +1,5 @@
 # Pandoc
 
-[![Source Code](https://img.shields.io/badge/source-gitea-blue)](https://git.argc.in/containers/pandoc)
-[![Build Status](https://drone.argd.in/api/badges/containers/pandoc/status.svg)](https://drone.argd.in/containers/pandoc)
 [![Registry](https://img.shields.io/badge/registry-quay.io-red)](https://quay.io/repository/ankitrgadiya/pandoc?tab=tags)
 
 Pandoc is a universal document converter. It supports a wide-array of document
